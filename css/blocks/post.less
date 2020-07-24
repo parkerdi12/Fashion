@@ -1,0 +1,46 @@
+// main: ../style.less
+
+.post {
+  margin-top: 40px;
+}
+
+.post__item {
+  margin-bottom: 30px;
+  box-shadow: rgba(43, 42, 44, 0.25) 0px 0px 4px;
+
+  transition: box-shadow 0.2s linear;
+
+  &:hover {
+    box-shadow: 0 0 25px fade(@black, 25%);
+  }
+}
+
+.post__title {
+  padding: 15px 70px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: @black;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.post__image {
+  display: block;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.post__subtitle {
+  margin-bottom: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: @yellow;
+  text-align: center;
+}
+
+.post__text {
+  padding: 0px 10px 10px 10px; 
+  font-size: 18px;
+  color: @black;
+  text-align: center;
+}
